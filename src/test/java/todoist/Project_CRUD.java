@@ -31,7 +31,7 @@ public class Project_CRUD extends TestBaseTodoist {
         Thread.sleep(3000);
         MainPageTodoist.editButton.click();
         Thread.sleep(3000);
-        projectUpdate = "Abel Update " + new Date().getTime();
+        projectUpdate = "Mojix" + new Date().getTime();
         Thread.sleep(3000);
         MainPageTodoist.projectName.cleanSetText(projectUpdate);
         Thread.sleep(3000);
